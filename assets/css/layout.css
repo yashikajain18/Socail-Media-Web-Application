@@ -1,4 +1,11 @@
-body{
-    margin: 0;
-    /* text-align: center; */
-}
+body {
+  margin-top: 10;
+  margin-left: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #e4e4e4;
+  /* text-align: center; */ }
+  body #layout-main {
+    height: 100%; }

@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #175c86;
+  height: 30px;
+  color: white;
+  font-size: 16px;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  header p {
+    margin: 5px 0 0 16px; }
+    header p a {
+      text-decoration: none;
+      color: inherit; }
+    header p a:hover {
+      color: #ffc021; }
+  header ul {
+    list-style: none;
+    display: flex;
+    margin: 6px 16px 0 0; }
+    header ul a {
+      margin: 0;
+      text-decoration: none;
+      color: white; }
+    header ul a:hover {
+      color: #ffc021; }
+    header ul li {
+      margin: 0;
+      margin-left: 10px; }

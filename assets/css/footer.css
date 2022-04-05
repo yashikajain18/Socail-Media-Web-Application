@@ -1,0 +1,21 @@
+footer {
+  height: 42px;
+  background-color: #175c86;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+  footer p {
+    margin: 13px 0 0 16px; }
+  footer #footer-links {
+    display: flex;
+    margin: 13px 16px 0 0; }
+    footer #footer-links a {
+      color: white;
+      text-decoration: none;
+      margin-left: 10px; }
+    footer #footer-links a:hover {
+      color: #ffc021; }

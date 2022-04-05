@@ -1,0 +1,28 @@
+
+footer{
+    height: 42px;
+    background-color:  rgb(23, 92, 134);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    p{
+        margin: 13px 0 0 16px;
+    }
+    #footer-links{
+        display: flex;
+        margin: 13px 16px 0 0;
+        a{
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        a:hover{
+            color: rgb(255, 192, 33);
+        }
+    }
+
+}

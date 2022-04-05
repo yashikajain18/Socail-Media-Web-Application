@@ -3,14 +3,17 @@
          <title>
              <%= title %>
          </title>
+         <script src="https://kit.fontawesome.com/bb48ae0c1a.js" crossorigin="anonymous"></script>
          <link rel="stylesheet" href="/css/layout.css">
+         <link rel="stylesheet" href="/css/header.css">
+         <link rel="stylesheet" href="/css/footer.css">
          <%- style %>
     </head>
     <body>
        <%- include('_header'); -%>
-       
-       <%- body %>
-
+       <main id="layout-main">
+            <%- body %>
+       </main>
        <%- include('_footer'); -%>
 
        <%- script %>
