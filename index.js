@@ -25,6 +25,12 @@ app.use(sassMiddleware({
 app.use(express.urlencoded());
 
 app.use(cookieParser());
+
+app.use(express.static('./assets'));
+
+// make the uploads path available to browser
+app.use('/uploads', express.static(__dirname + '/uploads'));
+
 //use express layout 
 app.use(expressLayouts);
 
@@ -32,7 +38,6 @@ app.use(expressLayouts);
 app.set('layout extractStyles', true);
 app.set('layout extractScripts', true)
 
-app.use(express.static('./assets'));
 
 //use express router
 //app.use('/', require('./routes'));
