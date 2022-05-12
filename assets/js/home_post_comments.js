@@ -22,6 +22,7 @@ class PostComments{
 
 
     createComment(postId){
+        //console.log('*****');
         let pSelf = this;
         this.newCommentForm.submit(function(e){
             e.preventDefault();
@@ -87,6 +88,7 @@ class PostComments{
 
 
     deleteComment(deleteLink){
+        console.log('delete');
         $(deleteLink).click(function(e){
             e.preventDefault();
 
